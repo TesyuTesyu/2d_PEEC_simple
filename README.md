@@ -2,6 +2,7 @@
 ・自由空間における導体版のシミュレーション。
 ・形状は画像から生成される。黒色が導体の領域、白色がなにもない領域となる。
 ・python 3.12.1 VS-codeで動作.
+![スクリーンショット 2025-01-23 202045](https://github.com/user-attachments/assets/3893ac29-1125-4f18-98ea-8709d5bf5cd8)
 
 参考：
 [1] Ekman, Jonas, "Electromagnetic modeling using the partial element equivalent circuit method," Luleå tekniska universitet,  Doctoral thesis, 2003.
