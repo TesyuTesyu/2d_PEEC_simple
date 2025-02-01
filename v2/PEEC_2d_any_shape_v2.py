@@ -333,7 +333,7 @@ print("p",end="")
 start_time = time.time()
 
 potential=np.zeros([len(Ax[0]),len(Ax[0])])
-potential_p=1/rectangular_solid_self_potential(dx,dy,eps)#自己インダクタンス.
+potential_p=rectangular_solid_self_potential(dx,dy,eps)#自己ポテンシャル.#2025/0202に修正.間違っていた.
 
 matx=np.linspace(0,len_x,size_x)
 maty=np.linspace(0,len_y,size_y)
